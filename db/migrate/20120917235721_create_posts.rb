@@ -5,6 +5,7 @@ class CreatePosts < ActiveRecord::Migration
       t.string :permalink
       t.string :keywords
       t.text :body
+      t.date :show_date
 
       t.timestamps
     end

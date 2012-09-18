@@ -5,9 +5,11 @@ one:
   permalink: MyString
   keywords: MyString
   body: MyText
+  show_date: 2012-09-17
 
 two:
   title: MyString
   permalink: MyString
   keywords: MyString
   body: MyText
+  show_date: 2012-09-17
