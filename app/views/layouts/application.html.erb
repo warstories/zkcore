@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= render "site_partials/head_extras" %>
+
     <title><%= content_for?(:title) ? yield(:title) : "Zkcore" %></title>
     <%= csrf_meta_tags %>
 
@@ -34,7 +36,6 @@
     <!-- Size should be 32 x 32 pixels -->
     <%= favicon_link_tag 'images/favicon.ico', :rel => 'shortcut icon' %>
 
-    <%= render "site_partials/head_extras" %>
 
   </head>
   <body>
